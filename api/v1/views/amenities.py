@@ -1,5 +1,6 @@
 #!/usr/bon/python3
 
+"""route for handling Amenity objects"""
 from flask import Flask, jsonify, abort, request
 from models import storage
 from models.amenity import Amenity

@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+"""route for handling User objects """
 from flask import Flask, jsonify, abort, request
 from models import storage
 from models.user import User

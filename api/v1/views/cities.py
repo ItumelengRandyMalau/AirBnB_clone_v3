@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""route for handling State objects """
 from flask import Flask, jsonify, abort, request
 from models import storage
 from models.city import City

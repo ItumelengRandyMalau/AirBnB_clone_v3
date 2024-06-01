@@ -62,7 +62,7 @@ def create_place(city_id):
 
 @app_views.route('/places/<place_id>', methods=['PUT'], strict_slashes=False)
 def update_place(place_id):
-    """Updates a Place object"""
+ """Updates a Place object"""
     place = storage.get(Place, place_id)
     if place is None:
         abort(404)
@@ -75,4 +75,3 @@ def update_place(place_id):
             setattr(place, key, value)
     storage.save()
     return jsonify(place.to_dict()), 200
-

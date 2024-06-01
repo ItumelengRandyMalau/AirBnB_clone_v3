@@ -1,6 +1,6 @@
-#!/usr/bin/python3
-"""
-This module defines routes related to the API status and object statistics.
+#1/usr/bin/python3
+
+"""Testing documentation of a module
 """
 from api.v1.views import app_views
 from flask import jsonify

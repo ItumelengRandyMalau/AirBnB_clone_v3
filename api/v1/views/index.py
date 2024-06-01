@@ -1,4 +1,4 @@
-#1/usr/bin/python3
+#!/usr/bin/python3
 
 """Testing documentation of a module
 """

@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 """
 route for handling State objects 
 """

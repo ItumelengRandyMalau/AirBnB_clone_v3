@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""endpoint that retrieves the number of each objects"""
+"""
+This module defines routes related to the API status and object statistics.
+"""
 from api.v1.views import app_views
 from flask import jsonify
 from models import storage
